@@ -27,7 +27,7 @@ public class StringMain3 {
 		//예외처리는 try ~ catch 이용
 		x = "1,2,-,7";
 		//위의 data를 가지고 작업 - 변환이 안되는 경우는 0으로 간주
-		//-ㅇ,; 경우 NemberFormatException이 발생
+		//-의 경우 NemberFormatException이 발생
 		result = x.split(",");
 		sum = 0;
 		for(String temp : result) {
